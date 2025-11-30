@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Jesús</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header / Navegación -->
+    <header class="header">
+      <div class="container nav-container">
+        <div class="logo">Jesús<span> A.</span></div>
+        <nav class="nav" id="nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- Sección Hero / Inicio -->
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <div>
+          <h1 class="hero-title">
+            <span class="hero-prefix">Hola, soy</span>
+            <span class="hero-rotator" id="hero-rotator">
+              <span class="hero-word">Jesús</span>
+            </span>
+          </h1>
+
+          <p class="hero-text">
+            Me apasiona crear experiencias web modernas, rápidas y fáciles de
+            usar.
+          </p>
+          <div class="hero-buttons">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn-outline">Contactar</a>
+          </div>
+        </div>
+        <!-- foto -->
+        <div class="hero-photo">
+          <div class="avatar">
+            <img src="assets/imagen.jpg" alt="Jesús A. Desarrollador Web" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <div class="grid-2">
+          <p>
+            Soy un desarrollador web con experiencia en HTML, CSS y JavaScript.
+            Me gusta construir interfaces limpias y funcionales, y aprender
+            nuevas tecnologías.
+          </p>
+          <p>
+            He trabajado en proyectos personales como landing pages,
+            aplicaciones pequeñas en JS y páginas responsivas. Mi objetivo es
+            seguir creciendo como desarrollador y aportar valor a los proyectos
+            en los que participo.
+          </p>
+        </div>
+
+        <div class="skills">
+          <h3>Habilidades</h3>
+          <p>
+            Estas son algunas de las tecnologías con las que trabajo
+            habitualmente.
+          </p>
+
+          <div class="skills-gauges">
+            <!-- HTML -->
+            <div class="gauge" data-label="HTML5" data-value="90">
+              <div class="gauge-body">
+                <div class="gauge-needle"></div>
+                <div class="gauge-center">
+                  <span class="gauge-label-text">HTML5</span>
+                  <span class="gauge-percentage">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- CSS -->
+            <div class="gauge" data-label="CSS3" data-value="85">
+              <div class="gauge-body">
+                <div class="gauge-needle"></div>
+                <div class="gauge-center">
+                  <span class="gauge-label-text">CSS3</span>
+                  <span class="gauge-percentage">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="gauge" data-label="JavaScript" data-value="80">
+              <div class="gauge-body">
+                <div class="gauge-needle"></div>
+                <div class="gauge-center">
+                  <span class="gauge-label-text">JavaScript</span>
+                  <span class="gauge-percentage">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Git / GitHub -->
+            <div class="gauge" data-label="Git & GitHub" data-value="75">
+              <div class="gauge-body">
+                <div class="gauge-needle"></div>
+                <div class="gauge-center">
+                  <span class="gauge-label-text">Git &amp; GitHub</span>
+                  <span class="gauge-percentage">0%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Responsive -->
+            <div class="gauge" data-label="Responsive Design" data-value="85">
+              <div class="gauge-body">
+                <div class="gauge-needle"></div>
+                <div class="gauge-center">
+                  <span class="gauge-label-text">Responsive</span>
+                  <span class="gauge-percentage">0%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section section-alt">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <p class="section-intro">
+          Estos son algunos de mis proyectos personales. Haz clic para ver el
+          demo o el código.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card">
+            <h3>Portfolio Personal</h3>
+            <p>
+              Un portafolio responsivo hecho con HTML, CSS y JavaScript para
+              mostrar mis trabajos.
+            </p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Ver código</a
+              >
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card">
+            <h3>App de Tareas</h3>
+            <p>
+              Aplicación de lista de tareas con almacenamiento local del
+              navegador.
+            </p>
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>LocalStorage</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Ver código</a
+              >
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card">
+            <h3>Landing Page Producto</h3>
+            <p>
+              Landing moderna y responsiva para un producto ficticio, centrada
+              en conversión.
+            </p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">Ver demo</a>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Ver código</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p class="section-intro">
+          Me encantaría que trabajásemos juntos ¿Hablamos? <br />
+          Contacta a través del siguiente formulario o escríbeme directamente.
+        </p>
+
+        <div class="contact-grid">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Tu nombre"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="tu@correo.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Cuéntame en qué puedo ayudarte"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              Enviar mensaje
+            </button>
+            <p class="form-status" id="form-status"></p>
+          </form>
+
+          <div class="contact-info">
+            <h3>También puedes encontrarme en:</h3>
+            <ul>
+              <li><strong>Email:</strong> tunombre@correo.com</li>
+              <li>
+                <strong>GitHub:</strong> <a href="#">github.com/tunombre</a>
+              </li>
+              <li>
+                <strong>LinkedIn:</strong>
+                <a href="#">linkedin.com/in/tunombre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Hecho en Rota con ❤️.</p>
+        <button class="btn-link" id="back-to-top">Volver arriba ↑</button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
